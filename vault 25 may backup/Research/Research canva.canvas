@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"65b666fbdb180dbc","type":"file","file":"Research/Материалы.md","x":-296,"y":-677,"width":1176,"height":697},
+		{"id":"d4409404e672b543","type":"file","file":"Research/bibliography.md","x":-960,"y":-680,"width":400,"height":400},
+		{"id":"46e8a25ebed7016e","x":-360,"y":-1440,"width":400,"height":400,"type":"file","file":"Research/Скачать.md"}
+	],
+	"edges":[
+		{"id":"0f1d2f5269dd638f","fromNode":"46e8a25ebed7016e","fromSide":"bottom","toNode":"65b666fbdb180dbc","toSide":"top"}
+	]
+}

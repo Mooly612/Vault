@@ -1,0 +1,21 @@
+views:
+  - type: kanban
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Tasks")
+    groupBy:
+      property: date
+      direction: ASC
+    order:
+      - file.name
+    sort:
+      - property: date
+        direction: ASC
+    cardSize: 210
+    boardColumns:
+      - Today
+      - Tomorrow
+      - Later
+      - Biggest
+      - (No value)
